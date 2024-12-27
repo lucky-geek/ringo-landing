@@ -25,9 +25,10 @@
         }
 
         .background h1 {
-            margin: 0; /* Removes default margins */
-            font-size: 2.5rem; /* Adjust font size for h1 */
-            color: #333; /* Optional: Set h1 color */
+            margin: 0;
+            font-size: 4.8rem;
+            color: #4454BC;
+            font-weight: 800;
         }
 
         .background h3 {
@@ -36,6 +37,15 @@
             font-weight: 700;
             color: #54595F;
         }
+
+        .logo {
+            position: absolute; /* Allows precise positioning */
+            top: 1px; /* Distance from the top of the viewport */
+            right: 1px; /* Distance from the right of the viewport */
+            width: 170px; /* Adjust the size of the logo */
+            height: auto; /* Maintain aspect ratio */
+
+}
 
         footer {
             height: 400px;
@@ -95,6 +105,12 @@
             .background {
                 background-position: top right;
             }
+
+            .logo {
+                position: static;
+                margin: 0 0 20px auto;
+                display: block;
+            }
         }
 
         @media (max-width: 768px) {
@@ -104,6 +120,12 @@
 
             .background {
                 background-position: top right;
+            }
+
+            .logo {
+                position: static;
+                margin: 0 0 20px auto;
+                display: block;
             }
         }
 
@@ -123,19 +145,26 @@
                 background-position: top right;
                 padding: 5px;
             }
+
+            .logo {
+                position: static;
+                margin: 0 0 20px auto;
+                display: block;
+            }
         }
     </style>
 </head>
 <body>
-<div class="background">
-    <h1>Keep your phone number</h1>
-    <h3>as you move across states, provinces, or borders</h3>
-</div>
+    <div class="background">
+        <img src="img/ringo-logo-2.png" alt="Logo" class="logo">
+        <h1>Keep your phone number</h1>
+        <h3>as you move across states, provinces, or borders</h3>
+    </div>
 
-<footer>
-    Powered by Ringo | <strong><a href="https://ringo.tel/privacy-policy">&nbsp;Privacy policy</a></strong>
-</footer>
+    <footer>
+        Powered by Ringo | <strong><a href="https://ringo.tel/privacy-policy">&nbsp;Privacy policy</a></strong>
+    </footer>
 
-<button class="sticky-button"><a href="https://wa.me/message/LOKORR5WQIJWH1">Connect with a Representative</a></button>
+    <button class="sticky-button"><a href="https://wa.me/message/LOKORR5WQIJWH1">Connect with a Representative</a></button>
 </body>
 </html>

@@ -5,33 +5,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ringo | Keep your phone number as you move across states, provinces, or borders</title>
     <style>
+
         body, html {
             margin: 0;
             padding: 0;
             height: 100%;
-            font-family: Arial, sans-serif;
+            font-family: Rubik, sans-serif;
         }
 
         .background {
             background-image: url('img/ringo-landing.jpg');
             background-size: cover;
-            background-position: center;
+            background-position: top right;
             background-repeat: no-repeat;
             height: calc(100% - 50px);
-            display: flex;
-            align-items: center;
-            justify-content: center;
+            text-align: center;
+            padding: 0 15px; /* Adds some padding for small screens */
+            box-sizing: border-box;
+        }
+
+        .background h1 {
+            margin: 0; /* Removes default margins */
+            font-size: 2.5rem; /* Adjust font size for h1 */
+            color: #333; /* Optional: Set h1 color */
+        }
+
+        .background h3 {
+            margin: 10px 0 0;
+            font-size: 20px;
+            font-weight: 700;
+            color: #54595F;
         }
 
         footer {
             height: 400px;
             background: linear-gradient(to bottom, yellow, orange);
             color: #2C40C1;
-            font-size: 1.2rem;
+            font-size: 1rem;
             display: flex;
             align-items: center;
             justify-content: center;
             text-align: center;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        footer a {
+            color: #2C40C1;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
         }
 
         .sticky-button {
@@ -41,16 +66,14 @@
             transform: translate(-50%, 50%);
             background: #10C156;
             border: none;
-            padding: 10px 20px;
+            padding: 15px 25px;
             border-radius: 15px;
-            font-size: 16px;
+            font-size: 1.5rem;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             cursor: pointer;
-            font-size: 1.8rem;
-            line-height: 35px;
-            fill: #FFFFFF;
             color: #FFFFFF;
-
+            text-align: center;
+            z-index: 1000;
         }
 
         .sticky-button a {
@@ -58,29 +81,59 @@
             color: inherit;
         }
 
-        a {
-            text-decoration: none;
-            color: inherit;
-        }
-
         .sticky-button:hover {
-            color: inherit;
             background: #61CE70;
         }
 
-        .sticky-button a:visited {
-            color: inherit;
-            text-decoration: none !important;
+        /* Responsive Design: Adjustments for smaller screens */
+        @media (max-width: 1024px) {
+            footer {
+                font-size: 0.9rem;
+                padding: 15px;
+            }
+
+            .background {
+                background-position: top right;
+            }
+        }
+
+        @media (max-width: 768px) {
+            footer {
+                font-size: 0.8rem;
+            }
+
+            .background {
+                background-position: top right;
+            }
+        }
+
+        @media (max-width: 480px) {
+
+            .sticky-button {
+                font-size: 0.9rem;
+                padding: 8px 12px;
+            }
+
+            footer {
+                font-size: 0.7rem;
+                text-align: center;
+            }
+
+            .background {
+                background-position: top right;
+                padding: 5px;
+            }
         }
     </style>
 </head>
 <body>
 <div class="background">
-    <p>hhh</p>
+    <h1>Keep your phone number</h1>
+    <h3>as you move across states, provinces, or borders</h3>
 </div>
 
 <footer>
-    Powered by Ringo.tel | <strong><a href="https://ringo.tel/privacy-policy">&nbsp;Privacy policy</a></strong>
+    Powered by Ringo | <strong><a href="https://ringo.tel/privacy-policy">&nbsp;Privacy policy</a></strong>
 </footer>
 
 <button class="sticky-button"><a href="https://wa.me/message/LOKORR5WQIJWH1">Connect with a Representative</a></button>

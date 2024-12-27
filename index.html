@@ -40,8 +40,9 @@
 
         .logo {
             position: absolute; /* Allows precise positioning */
+            margin: 0 auto 20px 0;
             top: 1px; /* Distance from the top of the viewport */
-            right: 1px; /* Distance from the right of the viewport */
+            left: 1px; /* Distance from the right of the viewport */
             width: 170px; /* Adjust the size of the logo */
             height: auto; /* Maintain aspect ratio */
 
@@ -108,7 +109,7 @@
 
             .logo {
                 position: static;
-                margin: 0 0 20px auto;
+                margin: 0 auto 20px 0;
                 display: block;
             }
         }
@@ -124,7 +125,7 @@
 
             .logo {
                 position: static;
-                margin: 0 0 20px auto;
+                margin: 0 auto 20px 0;
                 display: block;
             }
         }
@@ -148,8 +149,21 @@
 
             .logo {
                 position: static;
-                margin: 0 0 20px auto;
+                margin: 0 0 10px auto;
                 display: block;
+            }
+            .background h1 {
+                margin: 0;
+                font-size: 3.2rem;
+                color: #4454BC;
+                font-weight: 500;
+            }
+
+            .background h3 {
+                margin: 10px 0 0;
+                font-size: 1.2rem;
+                font-weight: 500;
+                color: #54595F;
             }
         }
     </style>

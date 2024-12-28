@@ -157,7 +157,7 @@
 
            .logo {
                 position: static;
-                margin: 0 auto 5px 0;
+                margin: 0 10px 5px auto;
                 display: block;
            }
 

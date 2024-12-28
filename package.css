@@ -121,3 +121,9 @@
         width: 65%;
     }
 }
+
+@media (max-width: 768px) {
+    .package-container {
+        width: 65%;
+    }
+}

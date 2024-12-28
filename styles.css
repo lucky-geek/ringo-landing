@@ -111,3 +111,24 @@
                 display: block;
               }
         }
+
+        @media (max-width: 768px) {
+            .header {
+                padding: 70px 0 0 80px;
+            }
+
+            footer {
+                font-size: 0.8rem;
+            }
+
+            .background {
+                background-position: top right;
+                padding: 10px 0 0 10px;
+            }
+
+            .logo {
+                position: static;
+                margin: 0 auto 20px 0;
+                display: block;
+            }
+        }

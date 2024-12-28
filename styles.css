@@ -44,12 +44,12 @@
         }
 
         footer {
-            height: 400px;
+            height: 300px;
             background: linear-gradient(to bottom, yellow, orange);
             color: #2C40C1;
             font-size: 1rem;
             display: flex;
-            align-items: center;
+            align-items: end;
             justify-content: center;
             text-align: center;
             padding: 20px;

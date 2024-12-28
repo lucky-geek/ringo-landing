@@ -115,3 +115,9 @@
 .price-table .price-table-features-list svg~* {
 	vertical-align: text-top
 }
+
+@media (max-width: 1024px) {
+    .package-container {
+        width: 65%;
+    }
+}

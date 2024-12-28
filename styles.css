@@ -90,3 +90,24 @@
         .sticky-button:hover {
             background: #61CE70;
         }
+
+        @media (max-width: 1024px) {
+            .header {
+                padding: 70px 0 0 80px;
+            }
+
+            footer {
+                font-size: 0.9rem;
+                padding: 15px;
+            }
+
+             .background {
+                background-position: top right;
+             }
+
+               .logo {
+                position: static;
+                margin: 0 auto 20px 0;
+                display: block;
+              }
+        }

@@ -136,4 +136,16 @@
         font-size: 1.4rem;
         font-weight: 600;
     }
+
+    .price-table .price-table-price {
+        font-size: 45px;
+    }
+
+    .price-table .price-table-period {
+        font-size: 1rem;
+    }
+
+    .price-table .price-table-features-list {
+        font-size: 0.9rem;
+    }
 }

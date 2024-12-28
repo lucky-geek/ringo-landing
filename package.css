@@ -127,3 +127,9 @@
         width: 65%;
     }
 }
+
+@media (max-width: 480px) {
+    .package-container {
+        width: 90%;
+    }
+}

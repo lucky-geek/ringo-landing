@@ -1,0 +1,92 @@
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: Rubik, sans-serif;
+        }
+
+        .background {
+            background-image: url('img/ringo-landing.jpg');
+            background-size: cover;
+            background-position: top right;
+            background-repeat: no-repeat;
+            height: calc(100% - 50px);
+            box-sizing: border-box;
+        }
+
+        .header {
+            padding: 120px 0 0 150px;
+        }
+
+        .background h1 {
+            margin: 0;
+            font-size: 4.8rem;
+            color: #4454BC;
+            font-weight: 800;
+            padding-bottom: 50px;
+        }
+
+        .background h3 {
+            margin: 10px 0 0;
+            font-size: 30px;
+            font-weight: 700;
+            color: #54595F;
+            padding-bottom: 50px;
+        }
+
+        .logo {
+            position: absolute;
+            margin: 0 auto 20px 0;
+            top: 10px; /* Distance from the top of the viewport */
+            left: 10px; /* Distance from the right of the viewport */
+            width: 90px; /* Adjust the size of the logo */
+            height: auto; /* Maintain aspect ratio */
+        }
+
+        footer {
+            height: 400px;
+            background: linear-gradient(to bottom, yellow, orange);
+            color: #2C40C1;
+            font-size: 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        footer a {
+            color: #2C40C1;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        .sticky-button {
+            position: fixed;
+            bottom: 70px;
+            left: 50%;
+            transform: translate(-50%, 50%);
+            background: #10C156;
+            border: none;
+            padding: 15px 25px;
+            border-radius: 15px;
+            font-size: 1.5rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            cursor: pointer;
+            color: #FFFFFF;
+            text-align: center;
+            z-index: 1000;
+        }
+
+        .sticky-button a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .sticky-button:hover {
+            background: #61CE70;
+        }

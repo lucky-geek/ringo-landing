@@ -1,0 +1,117 @@
+.package-container {
+    overflow:hidden;
+    background-color: #4454BCE0;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 0px 0px 11px 1px rgba(30.27574096212732, 30.483232996906825, 30.788894653320323, 0.5);
+    width: 35%;
+    height: auto;
+    z-index: 1;
+    transform: translateX(10%);
+}
+
+.price-table {
+	text-align: center
+}
+
+.price-table .price-table-header {
+	background: #f8d929;
+	padding: 20px 0
+}
+
+.price-table .price-table-heading {
+	margin: 0;
+	padding: 0;
+	line-height: 1.2;
+	font-size: 24px;
+	font-weight: 600;
+	color: #54595F;
+	font-family: "Rubik", Sans-serif;
+    font-size: 2.8rem;
+    font-weight: 600;
+}
+
+.price-table .price-table-price {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	color: #FFF;
+	font-weight: 800;
+	font-size: 65px;
+	padding: 40px 0
+}
+
+.price-table .price-table-currency {
+	line-height: 1;
+	font-size: .7em
+}
+
+.price-table .price-table-integer-part {
+	line-height: .8
+}
+
+.price-table .price-table-currency {
+	margin-inline-end: 3px
+}
+
+.price-table .price-table-price .typo-excluded {
+    line-height: normal;
+    letter-spacing: normal;
+    text-transform: none;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.price-table .price-table-period {
+    width: 100%;
+    font-family: "Rubik", Sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+    color: #D1EDFF;
+}
+
+.price-table .price-table-features-list {
+	list-style-type: none;
+	font-family: "Rubik", Sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+	margin: 0;
+	padding: 0 0 50px 0;
+	line-height: 1;
+	color: #FFF;
+}
+
+.price-table .elementor-price-table-features-list li {
+	font-size: 14px;
+	line-height: 1;
+	margin: 0;
+	padding: 0
+}
+
+.price-table .price-table-features-list li .price-table-feature-inner {
+	margin-left: 15px;
+	margin-right: 15px
+}
+
+.price-table .price-table-features-list li:not(:first-child):before {
+	content: "";
+	display: block;
+	border: 0 solid hsla(0, 0%, 47.8%, .3);
+	margin: 10px 12.5%
+}
+
+.price-table .price-table-features-list i {
+	margin-inline-end: 10px;
+	font-size: 1.3em
+}
+
+.price-table .price-table-features-list svg {
+	margin-inline-end: 10px;
+	fill: #FFFFFF;
+	height: 1.3em;
+	width: 1.3em
+}
+
+.price-table .price-table-features-list svg~* {
+	vertical-align: text-top
+}

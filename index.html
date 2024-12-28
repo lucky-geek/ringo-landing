@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ringo | Keep your phone number as you move across states, provinces, or borders</title>
+    <link rel="stylesheet" href="package.css">
     <style>
 
         body, html {
@@ -19,9 +20,11 @@
             background-position: top right;
             background-repeat: no-repeat;
             height: calc(100% - 50px);
-            text-align: center;
-            padding: 0 15px; /* Adds some padding for small screens */
             box-sizing: border-box;
+        }
+
+        .header {
+            padding: 120px 0 0 150px;
         }
 
         .background h1 {
@@ -29,24 +32,25 @@
             font-size: 4.8rem;
             color: #4454BC;
             font-weight: 800;
+            padding-bottom: 50px;
         }
 
         .background h3 {
             margin: 10px 0 0;
-            font-size: 20px;
+            font-size: 30px;
             font-weight: 700;
             color: #54595F;
+            padding-bottom: 50px;
         }
 
         .logo {
-            position: absolute; /* Allows precise positioning */
+            position: absolute;
             margin: 0 auto 20px 0;
-            top: 1px; /* Distance from the top of the viewport */
-            left: 1px; /* Distance from the right of the viewport */
-            width: 170px; /* Adjust the size of the logo */
+            top: 10px; /* Distance from the top of the viewport */
+            left: 10px; /* Distance from the right of the viewport */
+            width: 90px; /* Adjust the size of the logo */
             height: auto; /* Maintain aspect ratio */
-
-}
+        }
 
         footer {
             height: 400px;
@@ -105,6 +109,7 @@
 
             .background {
                 background-position: top right;
+                padding: 10px 0 0 10px;
             }
 
             .logo {
@@ -121,6 +126,7 @@
 
             .background {
                 background-position: top right;
+                padding: 10px 0 0 10px;
             }
 
             .logo {
@@ -143,36 +149,85 @@
             }
 
             .background {
-                background-position: top right;
+                background-position: top left;
                 padding: 5px;
             }
 
             .logo {
                 position: static;
-                margin: 0 0 10px auto;
+                margin: 0 auto 5px 0;
                 display: block;
             }
             .background h1 {
                 margin: 0;
-                font-size: 3.4rem;
-                color: #10C156;
-                font-weight: 500;
+                font-size: 2.0rem;
+                font-weight: 800;
             }
 
             .background h3 {
                 margin: 10px 0 0;
-                font-size: 1.8rem;
-                font-weight: 500;
-                color: #10C156;
+                font-size: 20px;
+                font-weight: 700;
             }
         }
     </style>
 </head>
 <body>
     <div class="background">
-        <img src="img/ringo-logo-2.png" alt="Logo" class="logo">
-        <h1>Keep your phone number</h1>
-        <h3>as you move across states, provinces, or borders</h3>
+        <div class="header">
+            <img src="img/ringo-logo.png" alt="Logo" class="logo">
+            <h1>Keep your phone number</h1>
+            <h3><span>as you move across states, provinces, or borders</span></h3>
+            <div class="element  widget-price-table">
+                <div class="package-container">
+                    <div class="price-table">
+                        <div class="price-table-header">
+                            <h3 class="price-table-heading">
+                                Ringo Pro package:
+                            </h3>
+                        </div>
+
+                        <div class="price-table-price">
+                            <span class="price-table-currency">$</span>
+                            <span class="price-table-integer-part">10</span>
+                            <span class="price-table-period typo-excluded"> a month</span>
+	                    </div>
+
+                        <ul class="price-table-features-list">
+                            <li class="elementor-repeater-item-16ab7dc">
+                                <div class="price-table-feature-inner">													<span>
+										Unlimited incoming calls (US and Canada)									</span>
+                                </div>
+                            </li>
+                            <li class="elementor-repeater-item-fd0d320">
+                                <div class="price-table-feature-inner">
+                                    <span>
+										Unlimited incoming SMS
+                                    </span>
+                                </div>
+                            </li>
+                            <li class="elementor-repeater-item-0768ddd">
+                                <div class="price-table-feature-inner">
+                                    <span>
+										Without the need for internet connection
+                                    </span>
+                                </div>
+                            </li>
+                            <li class="elementor-repeater-item-e1f0361">
+                                <div class="price-table-feature-inner">
+                                    <span>
+										No need to download an&nbsp;app
+                                    </span>
+                                </div>
+                            </li>
+                        </ul>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
     </div>
 
     <footer>
